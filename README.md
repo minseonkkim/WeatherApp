@@ -1,16 +1,22 @@
 # weather_app
 
-A new Flutter project.
+### 구현 기능 / 구현할 기능
+- [x] 로딩 화면
+- [x] 현재 위치, 시간 불러오기
+- [x] 현재 날씨 정보 (open API)
+- [x] 현재 대기 정보 (open API)
+- [ ] 위치 갱신 아이콘
+- [ ] 일기 예보 - 시간별, 주간
+- [ ] 배경색 선택 or 라이트/다크 모드
 
-## Getting Started
+### 사용 라이브러리
+- https://pub.dev/packages/geolocator
+- https://pub.dev/packages/http
+- https://pub.dev/packages/google_fonts
+- https://pub.dev/packages/flutter_svg
+- https://pub.dev/packages/timer_builder
+- https://pub.dev/packages/intl
+- https://pub.dev/packages/flutter_spinkit
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 날씨 API
+https://openweathermap.org/
