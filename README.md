@@ -13,7 +13,7 @@
 - [ ] 배경색 선택 or 라이트/다크 모드
 
 ### 날씨 API
-https://openweathermap.org/
+- https://openweathermap.org/
 
 ### 사용 라이브러리
 - https://pub.dev/packages/geolocator
