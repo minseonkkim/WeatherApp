@@ -31,18 +31,24 @@ class Model {
         color: Colors.black87,
       );
     } else if (condition == 800 &&
-        ((hour >= 6 && ap == 'AM') || (hour < 6 && ap == 'PM'))) {
+        ((hour >= 6 && ap == 'AM') ||
+            (hour < 6 && ap == 'PM') ||
+            (hour == 12 && ap == 'PM'))) {
       return SvgPicture.asset(
         'svg/climacon-sun.svg',
         color: Colors.black87,
       );
     } else if (condition == 800 &&
-        ((hour < 6 && ap == 'AM') || (hour >= 6 && ap == 'PM'))) {
+        ((hour < 6 && ap == 'AM') ||
+            (hour >= 6 && hour <= 11 && ap == 'PM') ||
+            (hour == 12 && ap == 'AM'))) {
       return SvgPicture.asset(
         'svg/climacon-moon.svg',
         color: Colors.black87,
       );
-    } else if ((hour >= 6 && ap == 'AM') || (hour < 6 && ap == 'PM')) {
+    } else if ((hour >= 6 && hour <= 11 && ap == 'AM') ||
+        (hour < 6 && ap == 'PM') ||
+        (hour == 12 && ap == 'AM')) {
       return SvgPicture.asset(
         'svg/climacon-cloud_sun.svg',
         color: Colors.black87,
