@@ -17,3 +17,6 @@
 - https://pub.dev/packages/timer_builder
 - https://pub.dev/packages/intl
 - https://pub.dev/packages/flutter_spinkit
+
+### 날씨 API
+https://openweathermap.org/
