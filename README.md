@@ -1,7 +1,5 @@
 # weather_app
 
-220127~
-
 
 ### 날씨 API
 - https://openweathermap.org/
